@@ -97,7 +97,7 @@ banner
 
 .top-nav-collapse {
     padding: 0; 
-    background: rgba(28,74,90, 0.9);
+    background: rgba(33, 90, 47, 0.9);
 }
 
 .white, .white:hover, .white:focus
@@ -112,7 +112,7 @@ banner
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     color: #fff;
     text-transform: uppercase;
-    background-color: rgba(12, 184, 182, 0.21);
+    background-color: rgba(17, 184, 59, 0.21);
 }
 .navbar-default .navbar-nav > li > a
 {
@@ -125,14 +125,14 @@ banner
 {
 	color: #fff;
     text-transform: uppercase;
-    background-color: rgba(12, 184, 182, 0.21);
+    background-color: rgba(19, 184, 72, 0.21);
 }
 .affix {
     background-color: #ffffff !important;
 }
 .affix .navbar-nav > li > a:hover, .affix .navbar-nav > li > a:focus
 {
-    background-color: rgba(12, 184, 182) !important;
+    background-color: rgb(25, 184, 98) !important;
 }
 #banner{
 	background: url('../img/bg-banner.jpg') no-repeat fixed;
@@ -141,7 +141,7 @@ banner
 	position: relative;
 }
 .bg-color{
-	background-color: RGBA(13, 70, 83, 0.78);
+	background-color: rgba(19, 83, 45, 0.78);
 	min-height: 650px;
 }
 .banner-info{
@@ -163,7 +163,7 @@ banner
 	margin-top: 30px;
 	padding: 10px 20px;
 	font-size: 12px;
-	background-color: rgba(12, 184, 182, 0.91);
+	background-color: rgba(17, 184, 69, 0.91);
 	border-radius: 3px;
 	color: #fff;
 }
@@ -183,7 +183,7 @@ banner
 services
 ***************************************/
 .icon i{
-	color: #0cb8b6;
+	color: #16b82f;
 	font-size: 45px;
 	margin-bottom: 25px;
 }
@@ -200,7 +200,7 @@ services
 cta-1
 ***************************************/
 .schedule-tab {
-	background-color: #0CB8B6;
+	background-color: #12b840;
 	float: left;
 }
 .medi-info{
@@ -248,7 +248,7 @@ about
     width: 40px;
     height: 40px;
     padding-top: 6px;
-    background: #0cb8b6;
+    background: #11b848;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -356,7 +356,7 @@ cta -2
 	color: #fff;
 }
 .icon-play, .icon-play:hover, .icon-play:focus{
-	background-color: #0CB8B6;
+	background-color: #0fb82d;
 	padding: 5px 10px;
 	color: #fff;
 	text-decoration: none;
@@ -365,7 +365,7 @@ cta -2
 	display: block;
 }
 .text-primary {
-    color: #0cb8b6;
+    color: #12b83c;
 }
 .icon-mar 
 {
@@ -378,7 +378,7 @@ contact us
     margin-top: 40px;
 }
 .btn-form, .btn-form:hover, .btn-form:focus {
-    background-color: #0cb8b6;
+    background-color: #16b82f;
     color: #fff;
     border-radius: 0px;
     padding: 10px 20px;
@@ -399,7 +399,7 @@ contact us
 }
 
 #sendmessage {
-    color: green;
+    color: #288000;
     border:1px solid green;
     display:none;
     text-align:center;
@@ -427,7 +427,7 @@ contact us
 footer
 ***************************************/
 #footer{
-	background-color: #325C6A;
+	background-color: #356a3d;
 }
 .ftr-tle {
     height: 50px;
@@ -450,16 +450,16 @@ footer
     text-align: center;
     margin-right: 5px;
 }
-.bglight-blue {
+.bglight-blue { /*facebook*/
     background-color: #3498DB;
 }
 .bgred {
     background-color: #E74C3C;
 }
-.bgdark-blue {
+.bgdark-blue { /*linkedin*/
     background-color: #2C3E50;
 }
-.bglight-blue {
+.bglight-blue { /*twitter*/
     background-color: #3498DB;
 }
 .top-footer {
@@ -472,7 +472,7 @@ footer
 }
 
 .footer-line a {
-    color: #0CB8B6;
+    color: #16b842;
 }
 
 .quick-info li a{
@@ -480,7 +480,7 @@ footer
 }
 .site-link, .site-link:hover, .site-link:focus
 {
-    color: #0cb8b6;
+    color: #14b848;
     text-transform: none;
 }
 @media (min-width: 551px) and (max-width: 980px){
