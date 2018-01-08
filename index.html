@@ -12,6 +12,8 @@
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src='https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.css' rel='stylesheet' />
   <!-- =======================================================
     Theme Name: Medilab
     Theme URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
@@ -39,7 +41,7 @@
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#banner">Inicio</a></li>
                 <li class=""><a href="#service">Servicios</a></li>
-                <li class=""><a href="#about">¿Quiénes Somos?</a></li>
+                <li class=""><a href="#cta-1">Planes</a></li>
                 <li class=""><a href="#testimonial">Experiencias</a></li>
                 <li class=""><a href="#contact">Contacto</a></li>
               </ul>
@@ -54,7 +56,7 @@
               <img src="img/logo.png" class="img-responsive">
             </div>
             <div class="banner-text text-center">
-              <h1 class="white">Atrévete a ser una mejor versión de ti mismo!</h1>
+              <h1 class="white">Descubre la mejor versión de ti!</h1>
               <p>En TuNutriólogo.mx te ayudamos a lograr tus objetivos de la manera más práctica posible, de acuerdo a tus necesidades  realizamos un plan de alimentación a tu medida.</p>
               <a href="#contact" class="btn btn-appoint">Haz un cita.</a>
             </div>
@@ -129,14 +131,14 @@
             <div class="mt-boxy-color"></div>
             <div class="medi-info">
               <h3>Plan Basico</h3>
-              <p>Aqui describes el plan. I am text block. Edit this text from Appearance / Customize / Homepage header columns. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+              <p>Dos consultas por $650 pesos, precio regular $450 pesos por consulta. Incluye: Diagnóstico inicial, Plan personalizado, Equivalentes de alimentos, Lista de alimentos.</p>
               <a href="#contact" class="medi-info-btn">Haz una cita</a>
             </div>
           </div>
           <div class="col-md-4 col-sm-4">
             <div class="medi-info">
               <h3>Plan Premium</h3>
-              <p>Plan dos I am text block. Edit this text from Appearance / Customize / Homepage header columns. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+              <p>Cuatro consultas por $1,200 pesos, precio regular $450 pesos por consulta. Incluye: Diagnóstico inicial, Plan personalizado, Equivalentes de alimentos, Lista de alimentos.</p>
               <a href="#contact" class="medi-info-btn">Haz una cita</a>
             </div>
           </div>
@@ -147,16 +149,16 @@
               <table style="margin: 8px 0px 0px;" border="1">
                 <tbody>
                   <tr>
-                    <td>Monday - Friday</td>
-                    <td>8.00 - 17.00</td>
+                    <td>Lunes - Viernres</td>
+                    <td>10:00 - 20:00</td>
                   </tr>
                   <tr>
-                    <td>Saturday</td>
-                    <td>9.30 - 17.30</td>
+                    <td>Sábados</td>
+                    <td>8:00 - 17:00</td>
                   </tr>
                   <tr>
-                    <td>Sunday</td>
-                    <td>9.30 - 15.00</td>
+                    <td>Domingos</td>
+                    <td>8:00 - 15:00</td>
                   </tr>
                 </tbody>
               </table>
@@ -205,24 +207,22 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="ser-title">Meet Our Doctors!</h2>
+          <h2 class="ser-title">Conoce a nuestros especialistas!</h2>
           <hr class="botm-line">
         </div>
         <div class="col-md-3 col-sm-3 col-xs-6">
           <div class="thumbnail">
-            <img src="img/doctor1.jpg" alt="..." class="team-img">
+            <img src="img/doctor5.jpg" alt="..." class="team-img">
             <div class="caption">
-              <h3>Jessica Wally</h3>
-              <p>Doctor</p>
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-              </ul>
+              <h3>Carolina Melgar</h3>
+              <p>Lic. en Nutrición y Educadora en Diabetes</p>
+              <!--<ul class="list-inline">
+                <li><a href="https://www.instagram.com/caritoml31/"><i class="fa fa-instagram"></i></a></li>
+              </ul>-->
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-3 col-xs-6">
+        <!--<div class="col-md-3 col-sm-3 col-xs-6">
           <div class="thumbnail">
             <img src="img/doctor2.jpg" alt="..." class="team-img">
             <div class="caption">
@@ -263,7 +263,7 @@
               </ul>
             </div>
           </div>
-        </div>
+        </div>-->
       </div>
     </div>
   </section>
@@ -273,43 +273,43 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="ser-title">see what patients are saying?</h2>
+          <h2 class="ser-title">Escucha nuestras historias de éxito</h2>
           <hr class="botm-line">
         </div>
         <div class="col-md-4 col-sm-4">
           <div class="testi-details">
             <!-- Paragraph -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Siempre estuvieron a mi lado en mi lucha por bajar más de 20kg de manera saludable y sin rebote.</p>
           </div>
           <div class="testi-info">
             <!-- User Image -->
-            <a href="#"><img src="img/thumb.png" alt="" class="img-responsive"></a>
+            <a href="#"><img src="img/testimonial1.jpeg" alt="" class="img-responsive"></a>
             <!-- User Name -->
-            <h3>Alex<span>Texas</span></h3>
+            <h3>Alejandra<span>Lopez</span></h3>
           </div>
         </div>
         <div class="col-md-4 col-sm-4">
           <div class="testi-details">
             <!-- Paragraph -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Cuando decidí cambiar mi estilo de vida para siempre, supe que podia contar con ellos. Ahora como saludable con mis alimentos favoritos y fáciles de conseguir.</p>
           </div>
           <div class="testi-info">
             <!-- User Image -->
-            <a href="#"><img src="img/thumb.png" alt="" class="img-responsive"></a>
+            <a href="#"><img src="img/testimonial2.jpeg" alt="" class="img-responsive"></a>
             <!-- User Name -->
-            <h3>Alex<span>Texas</span></h3>
+            <h3>Fernando<span>Hernández</span></h3>
           </div>
         </div>
         <div class="col-md-4 col-sm-4">
           <div class="testi-details">
             <!-- Paragraph -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Me ayudo a cuidarme de la Diabetes y manterme sano para poder disfrutar a mi familia.</p>
           </div>
           <div class="testi-info">
             <!-- User Image -->
-            <a href="#"><img src="img/thumb.png" alt="" class="img-responsive"></a>
+            <a href="#"><img src="img/testimonial3.jpeg" alt="" class="img-responsive"></a>
             <!-- User Name -->
-            <h3>Alex<span>Texas</span></h3>
+            <h3>Jorge<span>Rodríguez</span></h3>
           </div>
         </div>
       </div>
@@ -322,11 +322,11 @@
       <div class=" row">
         <div class="col-md-2"></div>
         <div class="text-right-md col-md-4 col-sm-4">
-          <h2 class="section-title white lg-line">« A few words<br> about us »</h2>
+          <h2 class="section-title white lg-line">« Algunos datos<br> acerca de nosotros »</h2>
         </div>
         <div class="col-md-4 col-sm-5">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a typek
-          <p class="text-right text-primary"><i>— Medilap Healthcare</i></p>
+          Más de 200 pacientes tratados y cientos de kilos perdidos respaldan nuestra reputación como los mejores Nutriólogos en la Ciudad de México.
+          <p class="text-right text-primary"><i>— Carolina Melgar</i></p>
         </div>
         <div class="col-md-2"></div>
       </div>
@@ -338,25 +338,28 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="ser-title">Contact us</h2>
+          <h2 class="ser-title">Contáctanos</h2>
           <hr class="botm-line">
         </div>
         <div class="col-md-4 col-sm-4">
           <h3>Contact Info</h3>
           <div class="space"></div>
-          <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>321 Awesome Street<br> New York, NY 17022</p>
+          <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Colonia San Rafael<br> Del. Cuauhtémoc, CDMX.</p>
           <div class="space"></div>
-          <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>info@companyname.com</p>
+          <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>carolina@tunutriologo.mx</p>
           <div class="space"></div>
-          <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+1 800 123 1234</p>
+          <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+66 72 13 65 65</p>
         </div>
         <div class="col-md-8 col-sm-8 marb20">
+          <div id='map' style='width: 100%; height: 250px;'></div>
+        </div>
+        <!--<div class="col-md-8 col-sm-8 marb20">
           <div class="contact-info">
             <h3 class="cnt-ttl">Having Any Query! Or Book an appointment</h3>
             <div class="space"></div>
             <div id="sendmessage">Your message has been sent. Thank you!</div>
             <div id="errormessage"></div>
-            <form action="" method="post" role="form" class="contactForm">
+            <form action="https://formspree.io/carolina@tunutriologo.mx" method="post" role="form" class="contactForm">
               <div class="form-group">
                 <input type="text" name="name" class="form-control br-radius-zero" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                 <div class="validation"></div>
@@ -379,7 +382,7 @@
               </div>
             </form>
           </div>
-        </div>
+        </div>-->
       </div>
     </div>
   </section>
@@ -391,25 +394,25 @@
         <div class="row">
           <div class="col-md-4 col-sm-4 marb20">
             <div class="ftr-tle">
-              <h4 class="white no-padding">About Us</h4>
+              <h4 class="white no-padding">Acerca de Nosotros</h4>
             </div>
             <div class="info-sec">
-              <p>Praesent convallis tortor et enim laoreet, vel consectetur purus latoque penatibus et dis parturient.</p>
+              <p>TuNutriólogo.mx nace de la preocupación de cientos de personas de no recibir atención adecuada a las necesidades de Nutrición, en TuNutriólogo.mx te ayudaremos a ser una mejor versión de ti mismo.</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-4 marb20">
             <div class="ftr-tle">
-              <h4 class="white no-padding">Quick Links</h4>
+              <h4 class="white no-padding">Mapa del Sitio</h4>
             </div>
             <div class="info-sec">
               <ul class="quick-info">
-                <li><a href="index.html"><i class="fa fa-circle"></i>Home</a></li>
-                <li><a href="#service"><i class="fa fa-circle"></i>Service</a></li>
-                <li><a href="#contact"><i class="fa fa-circle"></i>Appointment</a></li>
+                <li><a href="index.html"><i class="fa fa-circle"></i>Inicio</a></li>
+                <li><a href="#service"><i class="fa fa-circle"></i>Servicios</a></li>
+                <li><a href="#cta-1"><i class="fa fa-circle"></i>Planes</a></li>
               </ul>
             </div>
           </div>
-          <div class="col-md-4 col-sm-4 marb20">
+          <!--<div class="col-md-4 col-sm-4 marb20">
             <div class="ftr-tle">
               <h4 class="white no-padding">Follow us</h4>
             </div>
@@ -421,7 +424,7 @@
                 <li class="bglight-blue"><i class="fa fa-twitter"></i></li>
               </ul>
             </div>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>
@@ -429,7 +432,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            © Copyright Medilab Theme. All Rights Reserved
+            © Copyright TuNutriologo.mx . All Rights Reserved
             <div class="credits">
               <!--
                 All the links in the footer should remain intact.
@@ -437,7 +440,6 @@
                 Licensing information: https://bootstrapmade.com/license/
                 Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Medilab
               -->
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade.com</a>
             </div>
           </div>
         </div>
@@ -452,6 +454,57 @@
   <script src="js/custom.js"></script>
   <script src="contactform/contactform.js"></script>
 
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoicGFjb2Z2ZiIsImEiOiJHaWU0YW1VIn0.jUHeUaCRMx-ZXOuEzCe53Q';
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/pacofvf/cjc6mjso6529v2spjpau9lu1d',
+        center: [-99.163321, 19.437742],
+        zoom: 13
+    });
+    map.on('load', function () {
+    // Add a layer showing the places.
+        map.addLayer({
+            "id": "places",
+            "type": "symbol",
+            "source": {
+                "type": "geojson",
+                "data": {
+                    "type": "FeatureCollection",
+                    "features": [{
+                        "type": "Feature",
+                        "properties": {
+                            "description": "<p>Estamos cerca del Metro San Cosme de la Línea 2 y <br/>de la estación Plaza de la República del Metrobus Línea 1</p>",
+                            "icon": "doctor"
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [-99.161358, 19.435678]
+                        }
+                    }]}},
+            "layout": {
+                "icon-image": "{icon}-15",
+                "icon-allow-overlap": true
+            }
+        });
+        map.on('mouseenter', 'places', function () {
+            map.getCanvas().style.cursor = 'pointer';
+        });
+        map.on('mouseleave', 'places', function () {
+            map.getCanvas().style.cursor = '';
+        });
+        map.on('click', 'places', function (e) {
+            new mapboxgl.Popup()
+                .setLngLat(e.features[0].geometry.coordinates)
+                .setHTML(e.features[0].properties.description)
+                .addTo(map);
+        });
+        new mapboxgl.Popup()
+                .setLngLat([-99.161358, 19.435678])
+                .setHTML("<p>Estamos cerca del Metro San Cosme de la Línea 2 y <br/>de la estación Plaza de la República del Metrobus Línea 1</p>")
+                .addTo(map);
+    });
+</script>
 </body>
 
 </html>
